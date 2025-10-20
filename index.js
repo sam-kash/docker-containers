@@ -3,7 +3,7 @@ const express = require("express")
 const app = express();
 
 app.get('/', (req, res)=>{
-    res.send("Simple express server to test Docker file for each microservice")
+    res.send("Simple express server to test Docker file for each microservice,use the /service to see a new page ")
 })
 
 app.get('/service', (req, res) =>{
